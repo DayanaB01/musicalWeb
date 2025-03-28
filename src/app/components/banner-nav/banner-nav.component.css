@@ -5,9 +5,13 @@
     background: black;
 }
 
+.navbar-brand{
+    font-size: xxx-large;
+}
 .collapse ul{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: larger;
 }

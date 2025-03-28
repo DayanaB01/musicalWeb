@@ -4,10 +4,6 @@
     justify-content: center;
 }
 .pilasBox{
-    /* border: 1px solid gray;
-    width: 100%;
-    display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -15,12 +11,6 @@
     gap: 20px;
     margin: 2%;
 }
-
-/*  para pliasBox  max-width: 800px;/
-/* contenedor: display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;*/
 
 .boxImg{
     border: 10px double #B636FF;
@@ -32,6 +22,11 @@
 .boxText{
     border: 10px double #429834;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    color: #ffffff;
+    font-size: x-large;
 }
 .boxIframe{
     border: 10px double #0D4BFF;
