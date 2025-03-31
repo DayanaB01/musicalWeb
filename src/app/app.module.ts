@@ -7,6 +7,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { BannerNavComponent } from './components/banner-nav/banner-nav.component';
 import { HistoriaComponent } from './components/historia/historia.component';
 import { GenerosComponent } from './components/generos/generos.component';
+import { ArtistasComponent } from './components/artistas/artistas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GenerosComponent } from './components/generos/generos.component';
     PrincipalComponent,
     BannerNavComponent,
     HistoriaComponent,
-    GenerosComponent
+    GenerosComponent,
+    ArtistasComponent
   ],
   imports: [
     BrowserModule,
