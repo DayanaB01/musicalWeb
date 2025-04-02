@@ -1,0 +1,19 @@
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 1%;
+}
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 30%;
+    margin: 1%;
+    background: #404040;
+    color: #ffffff;
+    font-size: larger;
+}

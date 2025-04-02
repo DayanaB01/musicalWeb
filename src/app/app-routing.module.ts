@@ -5,6 +5,7 @@ import { HistoriaComponent } from './components/historia/historia.component';
 import { GenerosComponent } from './components/generos/generos.component';
 import { ArtistasComponent } from './components/artistas/artistas.component';
 import { ActualidadComponent } from './components/actualidad/actualidad.component';
+import { CuriosidadesComponent } from './components/curiosidades/curiosidades.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path:'actualidad',
     component: ActualidadComponent
+  },
+  {
+    path:'curiosidades',
+    component: CuriosidadesComponent
   }
 ];
 
