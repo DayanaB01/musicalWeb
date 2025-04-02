@@ -8,6 +8,7 @@ import { BannerNavComponent } from './components/banner-nav/banner-nav.component
 import { HistoriaComponent } from './components/historia/historia.component';
 import { GenerosComponent } from './components/generos/generos.component';
 import { ArtistasComponent } from './components/artistas/artistas.component';
+import { ActualidadComponent } from './components/actualidad/actualidad.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ArtistasComponent } from './components/artistas/artistas.component';
     BannerNavComponent,
     HistoriaComponent,
     GenerosComponent,
-    ArtistasComponent
+    ArtistasComponent,
+    ActualidadComponent
   ],
   imports: [
     BrowserModule,

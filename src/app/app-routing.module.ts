@@ -4,6 +4,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { HistoriaComponent } from './components/historia/historia.component';
 import { GenerosComponent } from './components/generos/generos.component';
 import { ArtistasComponent } from './components/artistas/artistas.component';
+import { ActualidadComponent } from './components/actualidad/actualidad.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path:'artistas',
     component: ArtistasComponent
+  },
+  {
+    path:'actualidad',
+    component: ActualidadComponent
   }
 ];
 
